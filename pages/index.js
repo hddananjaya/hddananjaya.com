@@ -16,6 +16,9 @@ const HomePage = () => {
     }}>
 
     <Layout>
+      <p style={{textAlign:'center'}}>
+        I like to explore technologies regardless of any stack.
+      </p>
     <Categories />
     <Cards cardData={data.projectData}/>
     </Layout>
