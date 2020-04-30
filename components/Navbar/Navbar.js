@@ -21,7 +21,11 @@ const routes = [
   {
     path: '/infosec',
     navTitle: 'InfoSec',
-  }
+  },
+  // {
+  //   path: '/blog',
+  //   navTitle: 'Blog',
+  // },
 ];
 
 const Navbar = () => {

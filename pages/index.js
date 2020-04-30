@@ -16,8 +16,13 @@ const HomePage = () => {
     }}>
 
     <Layout>
-      <p style={{textAlign:'center'}}>
-        I like to explore technologies regardless of any stack.
+      <p style={{
+        textAlign:'center',
+        fontWeight:"bold"
+        }}>
+        Hey!, thank you for reaching out! <br/> 
+        These are couple of personal projects that I have worked.
+        I like to explore stuff :)
       </p>
     <Categories />
     <Cards cardData={data.projectData}/>

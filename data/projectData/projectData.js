@@ -1,14 +1,14 @@
 const projectData = [
   {
     title: 'Nodes',
-    description: 'A simple and functional photo sharing network created using Ionic + Flask. This was a weekend project I did for fun and was able to get the most out of server-less architecture with Google Cloud Platform.',
+    description: 'A simple photo sharing network. People can join private NODES(groups) and share images, like, comment etc.',
     image: '/images/nodes2-min.png',
     sourceURL: 'https://github.com/hddananjaya/Nodes_App',
     tags: ["Cloud", "Python", "Ionic", "Javascript"],
   },
   {
     title: 'Domain Checker',
-    description: 'Find domains like a pro! Multi-threaded tool to fuzz and find available domain names.',
+    description: 'Multi-threaded tool to fuzz and find available domain names.',
     image: '/images/domainchecker-min3.png',
     sourceURL: 'https://github.com/I2NhbmloZWxweW91/GamePad-SL4A',
     tags: ["Python"],
@@ -44,7 +44,7 @@ const projectData = [
   },  
   {
     title: 'pyAT',
-    description: 'Script written when A/Ls to extract contacts, messages from smartphones/watches via Bluetooth communication.',
+    description: 'Script written when A/Ls to extract contacts, messages from smartphones/watches via Bluetooth.',
     image: '/images/pyat-min1.png',
     sourceURL: 'https://github.com/hddananjaya/pyAT',
     tags: ["Security", "Python",],
@@ -52,7 +52,7 @@ const projectData = [
   {
     title: 'FlaskFire',
     description: 'Me trying to build a realtime chat system using firebase and flask.',
-    image: '/images/pyat-min.png',
+    image: '/images/flaskfire.png',
     sourceURL: 'https://github.com/hddananjaya/FlaskFire',
     tags: ["Cloud", "Python", "Javascript"],
   },  
