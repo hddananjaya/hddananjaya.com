@@ -1,0 +1,86 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0px;
+}
+
+.navitem{
+    list-style: none;
+    padding: 10px;
+    font-family: monospace;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+.activeItem{
+    animation: animateActive 1s forwards ;
+}
+
+@keyframes animateActive {
+    from {}
+    to {
+        background-color: black;
+        color:white;
+        font-weight: bold;
+    }
+}
+
+.proImg{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left, .right {
+    flex: 1;
+    align-items: center;
+    display: flex;
+}
+
+.right {
+    justify-content: flex-end;
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.proName{
+    margin-left: 12px;
+    margin-right: 12px;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 1024px) {
+    .left, .right {
+        justify-content: center;
+    }
+    .parent{
+        flex-direction: column;
+    }
+}
+
+.socialIcon{
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.right a {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+.right a :hover{
+    color:gray;
+}

@@ -1,0 +1,30 @@
+{
+  "name": "hddananjaya.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@glidejs/glide": "^3.4.1",
+    "@zeit/next-css": "^1.0.1",
+    "framer-motion": "^1.10.3",
+    "lodash": "^4.17.15",
+    "next": "^9.3.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-icons": "^3.10.0",
+    "react-simple-image-slider": "^1.0.3",
+    "react-slideshow-image": "^1.4.2"
+  },
+  "devDependencies": {
+    "react-social-icons": "^4.1.0"
+  }
+}

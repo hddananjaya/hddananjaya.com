@@ -1,0 +1,25 @@
+.tagsWrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 42px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.tag{
+    border: solid;
+    padding: 6px;
+    border-width: 1px;
+    margin:3px;
+    cursor: pointer;
+}
+
+.tag:hover{
+    /* background-color: lightgray; */
+}
+
+.tagSelected {
+    background-color: black;
+    color: white  ;
+}

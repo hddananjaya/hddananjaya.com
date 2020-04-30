@@ -1,0 +1,23 @@
+.mainContainer {
+    width: 1024px;
+    margin: auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .mainContainer {
+        width: auto;
+    }
+    .navBarHolder{
+        position: relative !important;
+    }
+}
+
+.navBarHolder{
+    background-color: lawngreen;
+    position: sticky;
+    top:0px;
+}
+
+.contentArea{
+    margin-top: 100px;
+}

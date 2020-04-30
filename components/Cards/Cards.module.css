@@ -1,0 +1,46 @@
+.cardOuter{
+    border: solid;
+    border-width: 1px;
+    padding: 10px;
+    margin:10px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 280px;
+    /* max-height: 400px; */
+}
+
+.cardHolder{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cardImage{
+    width: 100%;
+    /* height: 200px; */
+}
+
+.btnHolder{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.btnHolder a{
+    text-decoration: none;
+    width: 100%;
+}
+
+.btn{
+    color: white;
+    background-color: black;
+    padding: 5px 12px 5px 12px;
+    width: 100%;
+    height: 37px;
+    cursor: pointer;
+}
+
+.title {
+    font-family: monospace;
+    flex: 1;
+}
