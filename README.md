@@ -3,7 +3,8 @@
 ## Dev
 npm run dev
 
-## Export to static 
+## Buidl and Export to static 
+npm run build
 npx next export
 
 ## Deploy

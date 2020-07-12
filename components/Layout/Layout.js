@@ -1,6 +1,7 @@
 import Navbar from '../Navbar/Navbar';
 import styles from './Layout.module.css';
 import { motion } from 'framer-motion';
+import Footer from '../Footer/Footer';
 
 
 
@@ -28,6 +29,7 @@ const Layout = ({ children }) => {
           {children}
         </motion.div>
       </div>
+      <Footer/>
     </>
   );
 };

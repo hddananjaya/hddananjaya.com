@@ -6,7 +6,8 @@ const Infosec = () => {
       <Layout>
       <p style={{
         textAlign:'center',
-        fontWeight:"bold"
+        fontWeight:"bold",
+        height:"100vh",
         }}>
           I'm interested in information security, 
           where people bypass security protocols 

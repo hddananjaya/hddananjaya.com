@@ -1,0 +1,7 @@
+.footerOuter{
+ display: flex;
+ justify-content: center;
+ margin-top: 50px;
+ padding: 20px;
+ background-color: #d0d0d0;
+}
