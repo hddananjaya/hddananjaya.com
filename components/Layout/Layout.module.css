@@ -20,4 +20,5 @@
 
 .contentArea{
     margin-top: 52px;
+    min-height: 100vh;
 }

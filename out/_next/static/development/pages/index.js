@@ -363,6 +363,7 @@ var Footer = function Footer() {
       columnNumber: 5
     }
   }, __jsx("a", {
+    className: _Footer_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.downloadText,
     href: "https://github.com/hddananjaya/hddananjaya.com",
     __self: _this,
     __source: {
@@ -2314,10 +2315,11 @@ exports.locals = {
 
 exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
 // Module
-exports.push([module.i, ".Footer_footerOuter__2G3Od{\n display: flex;\n justify-content: center;\n margin-top: 50px;\n padding: 20px;\n background-color: #d0d0d0;\n}", "",{"version":3,"sources":["/home/caretaker/Documents/hddananjaya.com/components/Footer/Footer.module.css"],"names":[],"mappings":"AAAA;CACC,aAAa;CACb,uBAAuB;CACvB,gBAAgB;CAChB,aAAa;CACb,yBAAyB;AAC1B","file":"Footer.module.css","sourcesContent":[".footerOuter{\n display: flex;\n justify-content: center;\n margin-top: 50px;\n padding: 20px;\n background-color: #d0d0d0;\n}"]}]);
+exports.push([module.i, ".Footer_footerOuter__2G3Od{\n display: flex;\n justify-content: center;\n margin-top: 50px;\n padding: 20px;\n background-color: #d0d0d0;\n}\n\n.Footer_downloadText__VHihQ {\n    text-decoration: none;\n\n}", "",{"version":3,"sources":["/home/caretaker/Documents/hddananjaya.com/components/Footer/Footer.module.css"],"names":[],"mappings":"AAAA;CACC,aAAa;CACb,uBAAuB;CACvB,gBAAgB;CAChB,aAAa;CACb,yBAAyB;AAC1B;;AAEA;IACI,qBAAqB;;AAEzB","file":"Footer.module.css","sourcesContent":[".footerOuter{\n display: flex;\n justify-content: center;\n margin-top: 50px;\n padding: 20px;\n background-color: #d0d0d0;\n}\n\n.downloadText {\n    text-decoration: none;\n\n}"]}]);
 // Exports
 exports.locals = {
-	"footerOuter": "Footer_footerOuter__2G3Od"
+	"footerOuter": "Footer_footerOuter__2G3Od",
+	"downloadText": "Footer_downloadText__VHihQ"
 };
 
 /***/ }),
@@ -2331,7 +2333,7 @@ exports.locals = {
 
 exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
 // Module
-exports.push([module.i, ".Layout_mainContainer__3QnNW {\n    width: 1024px;\n    margin: auto;\n}\n\n@media screen and (max-width: 1024px) {\n    .Layout_mainContainer__3QnNW {\n        width: auto;\n    }\n    .Layout_navBarHolder__oj1Ei{\n        position: relative !important;\n    }\n}\n\n.Layout_navBarHolder__oj1Ei{\n    background-color: lawngreen;\n    position: -webkit-sticky;\n    position: sticky;\n    top:0px;\n}\n\n.Layout_contentArea__21bmG{\n    margin-top: 52px;\n}", "",{"version":3,"sources":["/home/caretaker/Documents/hddananjaya.com/components/Layout/Layout.module.css"],"names":[],"mappings":"AAAA;IACI,aAAa;IACb,YAAY;AAChB;;AAEA;IACI;QACI,WAAW;IACf;IACA;QACI,6BAA6B;IACjC;AACJ;;AAEA;IACI,2BAA2B;IAC3B,wBAAgB;IAAhB,gBAAgB;IAChB,OAAO;AACX;;AAEA;IACI,gBAAgB;AACpB","file":"Layout.module.css","sourcesContent":[".mainContainer {\n    width: 1024px;\n    margin: auto;\n}\n\n@media screen and (max-width: 1024px) {\n    .mainContainer {\n        width: auto;\n    }\n    .navBarHolder{\n        position: relative !important;\n    }\n}\n\n.navBarHolder{\n    background-color: lawngreen;\n    position: sticky;\n    top:0px;\n}\n\n.contentArea{\n    margin-top: 52px;\n}"]}]);
+exports.push([module.i, ".Layout_mainContainer__3QnNW {\n    width: 1024px;\n    margin: auto;\n}\n\n@media screen and (max-width: 1024px) {\n    .Layout_mainContainer__3QnNW {\n        width: auto;\n    }\n    .Layout_navBarHolder__oj1Ei{\n        position: relative !important;\n    }\n}\n\n.Layout_navBarHolder__oj1Ei{\n    background-color: lawngreen;\n    position: -webkit-sticky;\n    position: sticky;\n    top:0px;\n}\n\n.Layout_contentArea__21bmG{\n    margin-top: 52px;\n    min-height: 100vh;\n}", "",{"version":3,"sources":["/home/caretaker/Documents/hddananjaya.com/components/Layout/Layout.module.css"],"names":[],"mappings":"AAAA;IACI,aAAa;IACb,YAAY;AAChB;;AAEA;IACI;QACI,WAAW;IACf;IACA;QACI,6BAA6B;IACjC;AACJ;;AAEA;IACI,2BAA2B;IAC3B,wBAAgB;IAAhB,gBAAgB;IAChB,OAAO;AACX;;AAEA;IACI,gBAAgB;IAChB,iBAAiB;AACrB","file":"Layout.module.css","sourcesContent":[".mainContainer {\n    width: 1024px;\n    margin: auto;\n}\n\n@media screen and (max-width: 1024px) {\n    .mainContainer {\n        width: auto;\n    }\n    .navBarHolder{\n        position: relative !important;\n    }\n}\n\n.navBarHolder{\n    background-color: lawngreen;\n    position: sticky;\n    top:0px;\n}\n\n.contentArea{\n    margin-top: 52px;\n    min-height: 100vh;\n}"]}]);
 // Exports
 exports.locals = {
 	"mainContainer": "Layout_mainContainer__3QnNW",
@@ -39786,7 +39788,7 @@ var HomePage = function HomePage() {
 
 /***/ }),
 
-/***/ 1:
+/***/ 2:
 /*!*************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fcaretaker%2FDocuments%2Fhddananjaya.com%2Fpages%2Findex.js ***!
   \*************************************************************************************************************************************/
@@ -39809,5 +39811,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
