@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[9],{"6OyM":function(n,e,o){"use strict";o.r(e);var t=o("q1tI"),u=o.n(t),c=o("Qog0"),i=u.a.createElement;e.default=function(){return i(u.a.Fragment,null,i(c.a,null,i("div",null,"infosec")))}},CcDq:function(n,e,o){(window.__NEXT_P=window.__NEXT_P||[]).push(["/infosec",function(){return o("6OyM")}])}},[["CcDq",0,2,4,3,1,5]]]);

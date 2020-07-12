@@ -11,7 +11,7 @@ const Infosec = () => {
           I'm interested in information security, 
           where people bypass security protocols 
           in multi billion products. <br/>
-        These are some of my findings.
+        Visit my <a href="https://hddananjaya.wordpress.com">blog</a> to find my page in information security.
       </p>
       </Layout>
     </>
