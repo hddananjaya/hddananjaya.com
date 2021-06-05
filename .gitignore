@@ -1,3 +1,6 @@
+.history
+out/
+
 # Logs
 logs
 *.log
