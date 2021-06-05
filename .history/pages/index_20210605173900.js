@@ -5,7 +5,7 @@ import Categories from '../components/Categories/Categories';
 import React from 'react';
 import projectTags from '../data/projectData/projectTags';
 import AppContext from '../contexts/appContext';
-import Sleeping from './sleeping';
+import { Sleeping } from './sleeping';
 
 const HomePage = () => {
   const [tags, setTags] = React.useState(projectTags); 
